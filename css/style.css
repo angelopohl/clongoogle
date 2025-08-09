@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 1.6rem;
+    background-color: white;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    width: 100%;
+    height: 6rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list li {
+    display: inline;
+    text-decoration: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav .nav-list .meni-icon {
+    background-image: url('/asets/icon.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+
+}
+
+.nav .nav-list img {
+    background-color: #e9ecef;
+    border-radius: 5rem;
+    margin-left: 1rem;
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+.main{
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.main .main-logo {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+.main .main-logo img {
+    width: 30rem;
+}
+
+.main .main-input {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+  
+}
+
+.main .main-input-container {
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: 0.1rem solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main .main-input input {
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+
+.main .main-input-container:hover {
+    box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+    border-color: #dfe1e500;
+
+}
+
+.main .main-input .search-icon {
+    background-image: url('https://w7.pngwing.com/pngs/608/913/png-transparent-computer-icons-google-search-symbol-mobile-search-search-for-miscellaneous-logo-mobile-phones.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.main .main-input .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+
+}
+
+.main .main-buttons {
+    width: 53rem;
+    margin: 0 auto;
+}
+
+.main .main-buttons div{
+    display: inline-block;
+}
+
+.main .main-buttons button {
+    height: 3.6rem;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: 0.5rem;
+    padding: 0 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222;
+}
+
+.footer {
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer ul {
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.footer .footer-left {
+    justify-content: left;
+}
+
+.footer .footer-right {
+    justify-content: right;
+}
+
+.footer ul li a{
+    margin-right: 1rem;
+    color: #5f6368;
+}
